@@ -1,0 +1,11 @@
+
+/* Cohost */
+.button.button-cohost {
+    color: #FFFFFF;
+    border: 1px solid #ff9e59;
+    background-color: #791d45;
+  }
+  .button.button-notion:hover,
+  .button.button-notion:focus {
+    filter: brightness(90%);
+  }
