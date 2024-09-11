@@ -194,12 +194,23 @@ button:hover,
 
 /* Bluesky */
 .button.button-bluesky {
-  color: #000000;
-  background-color: #F3F9FF;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #1185FE;
 }
+
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
+  filter: brightness(90%);
+}
+
+/* Bluesky Alt */
+.button.button-bluesky-alt {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.button.button-bluesky-alt:hover,
+.button.button-bluesky-alt:focus {
   filter: brightness(90%);
 }
 
@@ -244,17 +255,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Clubhouse */
-.button.button-clubhouse {
-  color: #1F1F1A;
-  background-color: #F1EFE3;
-  border: 1px solid #212121;
-}
-.button.button-clubhouse:hover,
-.button.button-clubhouse:focus {
-  filter: brightness(90%);
-}
-
 /* dev.to */
 .button.button-dev-to {
   color: #000000;
@@ -266,10 +266,32 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Discogs */
+.button.button-discogs {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000
+}
+.button.button-discogs:hover,
+.button.button-discogs:focus {
+  filter: brightness(90%);
+}
+
+/* Discogs Alt */
+.button.button-discogs-alt {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF
+}
+.button.button-discogs-alt:hover,
+.button.button-discogs-alt:focus {
+  filter: brightness(90%);
+}
+
 /* Discord */
 .button.button-discord {
   color: #ffffff;
-  background-color: #5865f2;
+  background-color: #161CBB;
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
@@ -421,17 +443,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Google Podcasts */
-.button.button-google-podcasts {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #212121;
-}
-.button.button-google-podcasts:hover,
-.button.button-google-podcasts:focus {
-  filter: brightness(90%);
-}
-
 /* Google Scholar */
 .button.button-google-scholar {
   color: #000000;
@@ -440,16 +451,6 @@ button:hover,
 }
 .button.button-google-scholar:hover,
 .button.button-google-scholar:focus {
-  filter: brightness(90%);
-}
-
-/* Guilded */
-.button.button-guilded {
-  color: #000000;
-  background-color: #F5C400;
-}
-.button.button-guilded:hover,
-.button.button-guilded:focus {
   filter: brightness(90%);
 }
 
@@ -492,7 +493,6 @@ button:hover,
 .button.button-kick-alt:hover {
   filter: brightness(90%);
 }
-
 
 /* Kickstarter */
 .button.button-kickstarter {
@@ -598,6 +598,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Microsoft */
+.button.button-microsoft {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-microsoft:hover,
+.button.button-microsoft:focus {
+  filter: brightness(90%);
+}
+
 /* NGL */
 .button.button-ngl {
   color: #ffffff;
@@ -626,17 +637,6 @@ button:hover,
 }
 .button.button-onlyfans:hover,
 .button.button-onlyfans:focus {
-  filter: brightness(90%);
-}
-
-/* Partiful */
-.button.button-partiful {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
-}
-.button.button-partiful:hover,
-.button.button-partiful:focus {
   filter: brightness(90%);
 }
 
@@ -725,6 +725,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Revolut */
+.button.button-revolut {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+.button.button-revolut:hover,
+.button.button-revolut:focus {
+  filter: brightness(90%);
+}
+
 /* Shop */
 .button.button-shop {
   color: #ffffff;
@@ -745,16 +756,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Skoob */
-.button.button-skoob {
-  color: #ffffff;
-  background-color: #3189c8;
-}
-.button.button-skoob:hover,
-.button.button-skoob:focus {
-  filter: brightness(90%);
-}
-
 /* Slack */
 .button.button-slack {
   color: #000000;
@@ -765,7 +766,6 @@ button:hover,
 .button.button-slack:focus {
   filter: brightness(90%);
 }
-
 
 /* Snapchat */
 .button.button-snapchat {
@@ -818,13 +818,14 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Steam Dark */
-.button.button-steam-dark {
-  color: #ffffff;
-  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+/* Stack Overflow */
+.button.button-stack-overflow {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
 }
-.button.button-steam-dark:hover,
-.button.button-steam-dark:focus {
+.button.button-stack-overflow:hover,
+.button.button-stack-overflow:focus {
   filter: brightness(90%);
 }
 
@@ -835,6 +836,17 @@ button:hover,
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
+  filter: brightness(90%);
+}
+
+/* Steam Alt */
+.button.button-steam-alt {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+  border: 1px solid #FFFFFF;
+}
+.button.button-steam-alt:hover,
+.button.button-steam-alt:focus {
   filter: brightness(90%);
 }
 
@@ -941,16 +953,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Twitter (archiving soon, see 'X') */
-.button.button-twit {
-  color: #ffffff;
-  background-color: #1da1f2;
-}
-.button.button-twit:hover,
-.button.button-twit:focus {
-  filter: brightness(90%);
-}
-
 /* Unsplash */
 .button.button-unsplash {
   color: #000000;
@@ -999,17 +1001,6 @@ button:hover,
 }
 .button.button-vimeo:hover,
 .button.button-vimeo:focus {
-  filter: brightness(90%);
-}
-
-/* VRChat */
-.button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid black;
-}
-.button.button-vrchat:hover,
-.button.button-vrchat:focus {
   filter: brightness(90%);
 }
 
@@ -1066,16 +1057,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Xing */
-.button.button-xing {
-  color: #ffffff;
-  background-color: #026466;
-}
-.button.button-xing:hover,
-.button.button-xing:focus {
-  filter: brightness(90%);
-}
-
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
@@ -1096,4 +1077,3 @@ button:hover,
 .button.button-zoom:focus {
   filter: brightness(90%);
 }
-
