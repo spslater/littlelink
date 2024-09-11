@@ -1,9 +1,5 @@
 
-![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
-# LittleLink
-The DIY self-hosted <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
-=======
 # LittleLink (Docker version)
 
 This project is a fork of [LittleLink](https://github.com/sethcottle/littlelink). I wanted to create a Docker version of this project that is not modify and kept to true original. And that is what I have done here with the exception of creating the docker files in this repo.
