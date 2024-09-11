@@ -3,7 +3,6 @@
 /.devcontainer
 /.github
 .gitignore
-docker-compose.yml
 LICENSE.md
 privacy.html
 README.md
