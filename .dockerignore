@@ -1,8 +1,8 @@
 # remove unnecessary files from image
 .git
+/.devcontainer
+/.github
 .gitignore
-.dockerignore
-docker-compose.yml
-Dockerfile
 LICENSE.md
+privacy.html
 README.md
